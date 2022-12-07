@@ -6,10 +6,14 @@ function isprime(n){
     }
   }
   if(count==2){
-    console.log(n,"is prime");
+    return true;
   }
-  else{
-    console.log(n,"is not prime");
+  return false;
   }
+
+let ans=isprime(5);
+if(ans==true){
+  console.log("prime")
+}else{
+  console.log("not prime")
 }
-isprime(5)
